@@ -54,26 +54,43 @@ public class PlayerMove : MonoBehaviour {
 
         if (isGrounded)
         {
-            if (Input.GetKey(KeyCode.W))
-            {
-                //transform.position += transform.forward * Time.deltaTime * ms;
-                rb.AddRelativeForce(Vector3.forward * ms);
-            }
+			
+			if (Input.GetKey (KeyCode.W)) {
+				//transform.position += transform.forward * Time.deltaTime * ms;
+
+				rb.AddRelativeForce (Vector3.forward * ms);
+//			} else {
+//				rb.isKinematic = true;
+			}
             if (Input.GetKey(KeyCode.A))
-            {
+			{
                 //transform.position += transform.right * -1 * Time.deltaTime * ms;
                 rb.AddRelativeForce(Vector3.right * -ms);
             }
+//			else {
+//				rb.isKinematic = true;
+//			}
             if (Input.GetKey(KeyCode.S))
-            {
+			{
                 //transform.position += transform.forward * -1 * Time.deltaTime * ms;
                 rb.AddRelativeForce(Vector3.forward * -ms);
             }
+//			else {
+//				rb.isKinematic = true;
+//			}
             if (Input.GetKey(KeyCode.D))
-            {
+			{
                 //transform.position += transform.right * Time.deltaTime * ms;
                 rb.AddRelativeForce(Vector3.right * ms);
             }
+			if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D) )
+			{
+				rb.isKinematic = true;
+			}
+//			else {
+//				rb.isKinematic = true;
+//			}
+			rb.isKinematic = false;
 
             velcheck += 1;
 
