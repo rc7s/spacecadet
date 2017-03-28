@@ -17,8 +17,11 @@ public class PlayChime : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        sound.Play();
+        if (other.tag == "Player")
+        {
+            sound.Play();
+        }
     }
 }
