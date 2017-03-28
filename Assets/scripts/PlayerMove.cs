@@ -27,10 +27,10 @@ public class PlayerMove : MonoBehaviour {
 
 	
 
-		ms = 1500f;
+		ms = 2000f;
 		airspd = 6;
 		wallspd = 11;
-        maxSpeed = 50f;
+        maxSpeed = 1500f;
 
         velcheck = 0;
 
