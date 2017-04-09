@@ -12,7 +12,7 @@ public class a2maze_elevator : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Vector3 pos = transform.position;
-		pos.y = Mathf.PingPong(Time.time * 6, 30) + 87 ;
+		pos.y = Mathf.PingPong(Time.time * 4, 20) + 87 ;
 		transform.position = pos;
 	}
 }
