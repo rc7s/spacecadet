@@ -35,79 +35,79 @@ public class a1_key2 : MonoBehaviour {
     {
         if (other.name == "y1")
         {
-            if (count = 1)
+            if (count == 1)
             {
-                g1.setActive(true);
-                count = 2
+                g1.SetActive(true);
+				count = 2;
             }
             else
             {
-                r1.setActive(true);
+                r1.SetActive(true);
                 count = 1;
             }
         }
         if (other.name == "y2")
         {
-            if (count = 2)
+            if (count == 2)
             {
-                g2.setActive(true);
+                g2.SetActive(true);
                 count += 1;
             }
             else
             {
-                r3.setActive(true);
+                r3.SetActive(true);
                 count = 1;
             }
         }
         if (other.name == "y3")
         {
-            if (count = 3)
+            if (count == 3)
             {
-                g3.setActive(true);
+                g3.SetActive(true);
                 count += 1;
             }
             else
             {
-                r3.setActive(true);
+                r3.SetActive(true);
                 count = 1;
             }
         }
         if (other.name == "y4")
         {
-            if (count = 4)
+            if (count == 4)
             {
-                g4.setActive(true);
+                g4.SetActive(true);
                 count += 1;
             }
             else
             {
-                r4.setActive(true);
+                r4.SetActive(true);
                 count = 1;
             }
         }
         if (other.name == "y5")
         {
-            if (count = 5)
+            if (count == 5)
             {
-                g5.setActive(true);
+                g5.SetActive(true);
                 count += 1;
             }
             else
             {
-                r5.setActive(true);
+                r5.SetActive(true);
                 count = 1;
             }
         }
         if (other.name == "y6")
         {
-            if (count = 6)
+            if (count == 6)
             {
-                g6.setActive(true);
+                g6.SetActive(true);
                 count += 1;
             }
             else
             {
-                r6.setActive(true);
+                r6.SetActive(true);
                 count = 1;
             }
         }
