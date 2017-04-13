@@ -23,6 +23,9 @@ public class PlayerMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		Cursor.visible = false; //hides cursor
+		Screen.lockCursor = true; //locks cursor
+
         rb = GetComponent<Rigidbody>();
 
 	
