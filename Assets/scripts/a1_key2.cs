@@ -31,7 +31,7 @@ public class a1_key2 : MonoBehaviour {
         }
 	}
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.name == "y1")
         {
@@ -43,7 +43,7 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r1.SetActive(true);
-                count = 1;
+                //count = 1;
             }
         }
         if (other.name == "y2")
@@ -55,8 +55,8 @@ public class a1_key2 : MonoBehaviour {
             }
             else
             {
-                r3.SetActive(true);
-                count = 1;
+                r2.SetActive(true);
+                //count = 1;
             }
         }
         if (other.name == "y3")
@@ -69,7 +69,7 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r3.SetActive(true);
-                count = 1;
+                //count = 1;
             }
         }
         if (other.name == "y4")
@@ -82,7 +82,7 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r4.SetActive(true);
-                count = 1;
+                //count = 1;
             }
         }
         if (other.name == "y5")
@@ -95,7 +95,7 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r5.SetActive(true);
-                count = 1;
+                //count = 1;
             }
         }
         if (other.name == "y6")
@@ -108,7 +108,7 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r6.SetActive(true);
-                count = 1;
+                //count = 1;
             }
         }
     }

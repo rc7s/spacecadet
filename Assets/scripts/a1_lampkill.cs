@@ -14,6 +14,7 @@ public class a1_lampkill : MonoBehaviour {
 		timer -= Time.deltaTime;
 		if (timer <= 0f) {
 			gameObject.SetActive (false);
+			timer = 3.0f;
 		}
 	}
 }
