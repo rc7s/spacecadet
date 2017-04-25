@@ -14,8 +14,10 @@ public class LoadLevel2 : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter()
+	void OnTriggerEnter(Collider other)
     {
-        Application.LoadLevel("scene002");
+		if (other.tag == "Player") {
+			Application.LoadLevel ("a2");
+		}
     }
 }

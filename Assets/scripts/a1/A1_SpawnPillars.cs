@@ -51,7 +51,7 @@ public class A1_SpawnPillars : MonoBehaviour {
 				pillar06.SetActive(true);
 			}
 			pillarCount += 1;
-			timer = 0.5f;
+			timer = 2.5f;
 			if (pillarCount > 6)
 			{
 				pillarCount = 0;
