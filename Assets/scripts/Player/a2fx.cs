@@ -21,6 +21,6 @@ public class a2fx : MonoBehaviour
     {
         chromatic_Vignette.chromaticAberration = 10 + Mathf.PingPong(Time.time*10, 26);
         twirl.angle = Mathf.PingPong(Time.time * 3, 5);
-        curves.saturation = 0.8f + Mathf.PingPong(Time.time, 2);
+        curves.saturation = 0.8f + Mathf.PingPong(Time.time, 1.8f);
     }
 }

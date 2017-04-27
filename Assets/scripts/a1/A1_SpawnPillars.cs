@@ -13,7 +13,7 @@ public class A1_SpawnPillars : MonoBehaviour {
 	public GameObject pillar06;
 	// Use this for initialization
 	void Start () {
-		timer = 1.0f;
+		timer = 2.0f;
 		pillarCount = 1;
 	}
 	
@@ -51,7 +51,7 @@ public class A1_SpawnPillars : MonoBehaviour {
 				pillar06.SetActive(true);
 			}
 			pillarCount += 1;
-			timer = 2.5f;
+			timer = 1f;
 			if (pillarCount > 6)
 			{
 				pillarCount = 0;
