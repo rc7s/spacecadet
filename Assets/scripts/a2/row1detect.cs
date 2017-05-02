@@ -21,7 +21,7 @@ public class row1detect : MonoBehaviour {
 		
 	}
 
-	void OnCollisionStay(Collider other){
+	void OnTriggerStay(Collider other){
 		if (other.tag == "a2smallcubes") {
 			controller.row1weight += 1;
 		}
