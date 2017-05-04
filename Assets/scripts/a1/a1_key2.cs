@@ -17,18 +17,38 @@ public class a1_key2 : MonoBehaviour {
     public GameObject r6;
     public GameObject end;
     public int count;
+	public float timer;
+	//public int pillarCount;
+	//public GameObject spawn; 
+	//public A1_SpawnPillars spawn;
 
     // Use this for initialization
     void Start () {
         count = 1;
+		timer = 2.0f;
+		spawn sn = gameObject.GetComponent<A1_SpawnPillars>()
+		//pillarCount = 1;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		//timer -= Time.deltaTime;
 		if (count == 7)
         {
             end.SetActive(true);
         }
+	}
+
+	void countdown()
+	{
+		timer -= Time.deltaTime;
+		if (timer == 0)
+		{
+			spawn.destroythem ();
+			spawn.spawnthem ();
+			timer = 1;
+		}
+			
 	}
 
     void OnTriggerEnter(Collider other)
@@ -43,7 +63,10 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r1.SetActive(true);
-                //count = 1;
+				spawn.destroythem ();
+				countdown ();
+				
+                count = 1;
             }
         }
         if (other.name == "y2")
@@ -56,7 +79,9 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r2.SetActive(true);
-                //count = 1;
+				spawn.destroythem ();
+				countdown ();
+                count = 1;
             }
         }
         if (other.name == "y3")
@@ -69,7 +94,9 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r3.SetActive(true);
-                //count = 1;
+				spawn.destroythem ();
+				countdown ();
+                count = 1;
             }
         }
         if (other.name == "y4")
@@ -82,7 +109,9 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r4.SetActive(true);
-                //count = 1;
+				spawn.destroythem ();
+				countdown ();
+                count = 1;
             }
         }
         if (other.name == "y5")
@@ -95,7 +124,9 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r5.SetActive(true);
-                //count = 1;
+				spawn.destroythem ();
+				countdown ();
+                count = 1;
             }
         }
         if (other.name == "y6")
@@ -108,7 +139,9 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r6.SetActive(true);
-                //count = 1;
+				spawn.destroythem ();
+				countdown ();
+                count = 1;
             }
         }
     }

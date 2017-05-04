@@ -11,6 +11,7 @@ public class A1_SpawnPillars : MonoBehaviour {
 	public GameObject pillar04;
 	public GameObject pillar05;
 	public GameObject pillar06;
+
 	// Use this for initialization
 	void Start () {
 		timer = 2.0f;
@@ -57,6 +58,15 @@ public class A1_SpawnPillars : MonoBehaviour {
 				pillarCount = 0;
 			}
 		}
+	}
+
+	public void destroythem(){
+		pillar01.SetActive (false);
+		pillar02.SetActive (false);
+		pillar03.SetActive (false);
+		pillar04.SetActive (false);
+		pillar05.SetActive (false);
+		pillar06.SetActive (false);
 	}
 
 	void OnTriggerStay(Collider other)
