@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: b3d239eaf34ada7408c32c8271be78c6
+timeCreated: 1493919263
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: //RootNode
+    100004: group
+    100006: joint1
+    100008: joint10
+    100010: joint11
+    100012: joint12
+    100014: joint13
+    100016: joint14
+    100018: joint15
+    100020: joint16
+    100022: joint17
+    100024: joint18
+    100026: joint19
+    100028: joint2
+    100030: joint20
+    100032: joint21
+    100034: joint22
+    100036: joint23
+    100038: joint24
+    100040: joint25
+    100042: joint26
+    100044: joint27
+    100046: joint28
+    100048: joint29
+    100050: joint3
+    100052: joint30
+    100054: joint31
+    100056: joint32
+    100058: joint33
+    100060: joint34
+    100062: joint4
+    100064: joint5
+    100066: joint6
+    100068: joint7
+    100070: joint8
+    100072: joint9
+    100074: pasted__joint1
+    100076: pasted__joint2
+    100078: pCone1
+    100080: pCone2
+    100082: pCylinder1
+    100084: pPyramid1
+    100086: pPyramid2
+    100088: pPyramid3
+    100090: pPyramid4
+    100092: pPyramid5
+    100094: pPyramid6
+    100096: pSphere2
+    100098: pSphere3
+    100100: pSphere4
+    100102: pSphere5
+    100104: pSphere6
+    100106: pSphere7
+    100108: pSphere8
+    100110: transform1
+    100112: transform10
+    100114: transform11
+    100116: transform12
+    100118: transform13
+    100120: transform14
+    100122: transform15
+    100124: transform2
+    100126: transform3
+    100128: transform4
+    100130: transform5
+    100132: transform6
+    100134: transform7
+    100136: transform8
+    100138: transform9
+    400000: back
+    400002: //RootNode
+    400004: group
+    400006: joint1
+    400008: joint10
+    400010: joint11
+    400012: joint12
+    400014: joint13
+    400016: joint14
+    400018: joint15
+    400020: joint16
+    400022: joint17
+    400024: joint18
+    400026: joint19
+    400028: joint2
+    400030: joint20
+    400032: joint21
+    400034: joint22
+    400036: joint23
+    400038: joint24
+    400040: joint25
+    400042: joint26
+    400044: joint27
+    400046: joint28
+    400048: joint29
+    400050: joint3
+    400052: joint30
+    400054: joint31
+    400056: joint32
+    400058: joint33
+    400060: joint34
+    400062: joint4
+    400064: joint5
+    400066: joint6
+    400068: joint7
+    400070: joint8
+    400072: joint9
+    400074: pasted__joint1
+    400076: pasted__joint2
+    400078: pCone1
+    400080: pCone2
+    400082: pCylinder1
+    400084: pPyramid1
+    400086: pPyramid2
+    400088: pPyramid3
+    400090: pPyramid4
+    400092: pPyramid5
+    400094: pPyramid6
+    400096: pSphere2
+    400098: pSphere3
+    400100: pSphere4
+    400102: pSphere5
+    400104: pSphere6
+    400106: pSphere7
+    400108: pSphere8
+    400110: transform1
+    400112: transform10
+    400114: transform11
+    400116: transform12
+    400118: transform13
+    400120: transform14
+    400122: transform15
+    400124: transform2
+    400126: transform3
+    400128: transform4
+    400130: transform5
+    400132: transform6
+    400134: transform7
+    400136: transform8
+    400138: transform9
+    4300000: pSphere8
+    7400000: walk
+    7400002: idle
+    9500000: //RootNode
+    13700000: pSphere8
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__joint1
+        weight: 1
+      - path: group/pasted__joint1/pasted__joint2
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint16
+        weight: 1
+      - path: joint1/joint2/joint3/joint17
+        weight: 1
+      - path: joint1/joint2/joint3/joint18
+        weight: 1
+      - path: joint1/joint2/joint3/joint19
+        weight: 1
+      - path: joint1/joint2/joint3/joint19/joint20
+        weight: 1
+      - path: joint1/joint4
+        weight: 1
+      - path: joint1/joint4/joint5
+        weight: 1
+      - path: joint1/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint13/joint31
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint14
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint14/joint32
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint15
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint33
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint33/joint34
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint28
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint28/joint29
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint28/joint29/joint30
+        weight: 1
+      - path: joint1/joint21
+        weight: 1
+      - path: joint1/joint21/joint22
+        weight: 1
+      - path: joint1/joint21/joint22/joint23
+        weight: 1
+      - path: joint1/joint21/joint22/joint24
+        weight: 1
+      - path: joint1/joint21/joint22/joint25
+        weight: 1
+      - path: joint1/joint21/joint22/joint26
+        weight: 1
+      - path: joint1/joint21/joint22/joint26/joint27
+        weight: 1
+      - path: pCone1
+        weight: 1
+      - path: pCone1/transform12
+        weight: 1
+      - path: pCone2
+        weight: 1
+      - path: pCone2/transform13
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform4
+        weight: 1
+      - path: pPyramid1
+        weight: 1
+      - path: pPyramid1/transform2
+        weight: 1
+      - path: pPyramid2
+        weight: 1
+      - path: pPyramid2/transform1
+        weight: 1
+      - path: pPyramid3
+        weight: 1
+      - path: pPyramid3/transform5
+        weight: 1
+      - path: pPyramid4
+        weight: 1
+      - path: pPyramid4/transform7
+        weight: 1
+      - path: pPyramid5
+        weight: 1
+      - path: pPyramid5/transform8
+        weight: 1
+      - path: pPyramid6
+        weight: 1
+      - path: pPyramid6/transform9
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform3
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform10
+        weight: 1
+      - path: pSphere4
+        weight: 1
+      - path: pSphere4/transform6
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      - path: pSphere5/transform15
+        weight: 1
+      - path: pSphere6
+        weight: 1
+      - path: pSphere6/transform11
+        weight: 1
+      - path: pSphere7
+        weight: 1
+      - path: pSphere7/transform14
+        weight: 1
+      - path: pSphere8
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 148
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__joint1
+        weight: 1
+      - path: group/pasted__joint1/pasted__joint2
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint16
+        weight: 1
+      - path: joint1/joint2/joint3/joint17
+        weight: 1
+      - path: joint1/joint2/joint3/joint18
+        weight: 1
+      - path: joint1/joint2/joint3/joint19
+        weight: 1
+      - path: joint1/joint2/joint3/joint19/joint20
+        weight: 1
+      - path: joint1/joint4
+        weight: 1
+      - path: joint1/joint4/joint5
+        weight: 1
+      - path: joint1/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint13/joint31
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint14
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint14/joint32
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint15
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint33
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint11/joint12/joint33/joint34
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint28
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint28/joint29
+        weight: 1
+      - path: joint1/joint4/joint5/joint6/joint7/joint28/joint29/joint30
+        weight: 1
+      - path: joint1/joint21
+        weight: 1
+      - path: joint1/joint21/joint22
+        weight: 1
+      - path: joint1/joint21/joint22/joint23
+        weight: 1
+      - path: joint1/joint21/joint22/joint24
+        weight: 1
+      - path: joint1/joint21/joint22/joint25
+        weight: 1
+      - path: joint1/joint21/joint22/joint26
+        weight: 1
+      - path: joint1/joint21/joint22/joint26/joint27
+        weight: 1
+      - path: pCone1
+        weight: 1
+      - path: pCone1/transform12
+        weight: 1
+      - path: pCone2
+        weight: 1
+      - path: pCone2/transform13
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform4
+        weight: 1
+      - path: pPyramid1
+        weight: 1
+      - path: pPyramid1/transform2
+        weight: 1
+      - path: pPyramid2
+        weight: 1
+      - path: pPyramid2/transform1
+        weight: 1
+      - path: pPyramid3
+        weight: 1
+      - path: pPyramid3/transform5
+        weight: 1
+      - path: pPyramid4
+        weight: 1
+      - path: pPyramid4/transform7
+        weight: 1
+      - path: pPyramid5
+        weight: 1
+      - path: pPyramid5/transform8
+        weight: 1
+      - path: pPyramid6
+        weight: 1
+      - path: pPyramid6/transform9
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform3
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform10
+        weight: 1
+      - path: pSphere4
+        weight: 1
+      - path: pSphere4/transform6
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      - path: pSphere5/transform15
+        weight: 1
+      - path: pSphere6
+        weight: 1
+      - path: pSphere6/transform11
+        weight: 1
+      - path: pSphere7
+        weight: 1
+      - path: pSphere7/transform14
+        weight: 1
+      - path: pSphere8
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
