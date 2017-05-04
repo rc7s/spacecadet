@@ -20,13 +20,13 @@ public class a1_key2 : MonoBehaviour {
 	public float timer;
 	//public int pillarCount;
 	//public GameObject spawn; 
-	//public A1_SpawnPillars spawn;
+	public A1_SpawnPillars spawn;
 
     // Use this for initialization
     void Start () {
         count = 1;
 		timer = 2.0f;
-		spawn sn = gameObject.GetComponent<A1_SpawnPillars>()
+		//spawn sn = gameObject.GetComponent<A1_SpawnPillars> ();
 		//pillarCount = 1;
 	}
 	
@@ -44,8 +44,8 @@ public class a1_key2 : MonoBehaviour {
 		timer -= Time.deltaTime;
 		if (timer == 0)
 		{
-			spawn.destroythem ();
-			spawn.spawnthem ();
+			//spawn.destroythem ();
+			//spawn.spawnthem ();
 			timer = 1;
 		}
 			
@@ -63,7 +63,7 @@ public class a1_key2 : MonoBehaviour {
             else
             {
                 r1.SetActive(true);
-				spawn.destroythem ();
+				//spawn.destroythem ();
 				countdown ();
 				
                 count = 1;
