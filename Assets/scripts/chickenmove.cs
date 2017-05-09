@@ -28,7 +28,7 @@ public class chickenmove : MonoBehaviour {
 
 		//currentHeight = transform.position.y;
 
-		while (loop) {
+		//while (loop) {
 			timer = 2.0f;
 			rotateTimer = 2.0f;
 			timer2 = 2.0f;
@@ -64,7 +64,7 @@ public class chickenmove : MonoBehaviour {
 				transform.position -= transform.forward * ms / 2;
 			}
 		}
-	}
+	//}
 
 	/*void OnCollisionEnter(Collider other){
 		if (other.tag == "floor") {
