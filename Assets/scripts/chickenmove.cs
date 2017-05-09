@@ -17,7 +17,7 @@ public class chickenmove : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		ms = 1.0f;
+		ms = 0.3f;
 		forward = true;
 		backwards = false;
 		loop = true;
